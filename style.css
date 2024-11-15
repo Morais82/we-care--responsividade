@@ -1,0 +1,157 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29, 26px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+
+    border-radius: 50px;
+    background: #665AE1;
+    height: 41px;
+    width: 130px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29, 26px;
+    cursor: pointer;
+}
+
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    margin-top: 150px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    background: #ADFF00;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    color: #000000;
+}
+
+@media screen and (max-width:860px) {
+    header {
+        margin: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    main {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    .button-main {
+        margin: 0 auto;
+    }
+
+    .logo-image {
+        margin: 180px 10px 20px 16px;
+        width: 354px;
+        height: 317px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: left;
+    }
+
+    .button-main {
+        width: 239px;
+        height: 64px;
+        border-radius: 50px;
+        margin: 15px;
+    }
+    section{
+        margin: 50px 45px 0 65px;
+        text-align: -webkit-center;
+        line-height: 2;
+       
+    }
+
+}
